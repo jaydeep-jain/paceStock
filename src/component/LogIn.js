@@ -37,7 +37,8 @@ export default function LogIn() {
         .then((result)=>console.log(result.user))
         .catch((error)=>alert(error.message))
     }
-    
+
+
     function logout() {
         console.log(auth)
         auth.signOut()
@@ -45,8 +46,7 @@ export default function LogIn() {
         .catch((error)=>alert(error.message))
     }
     
-
-   
+  
     return (
         <div className='container'>
           
